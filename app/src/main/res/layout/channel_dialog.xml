@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android1:layout_gravity="center_horizontal|center_vertical"
+    android:background="#FFFFF9"
+    android:orientation="vertical" 
+    >
+
+    <ImageView
+        android1:id="@+id/imageView1"
+        android1:layout_width="match_parent"
+        android1:layout_height="64dp"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentTop="true"
+        android1:background="#6495ed"
+        android1:contentDescription="@string/app_name"
+        android1:scaleType="center"
+        android1:src="@drawable/add_text"
+        android:textColor="#000000"
+         />
+
+    <EditText
+        android1:id="@+id/channel_name"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/imageView1"
+        android1:layout_marginTop="30dp"
+        android1:ems="10"
+        android1:hint="Channel name" 
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android1:id="@+id/url"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/channel_name"
+        android1:layout_marginTop="34dp"
+        android1:ems="10"
+        android1:fontFamily="sans-serif"
+        android1:hint="Link"
+        android1:paddingBottom="10dp"
+        android1:text="http://www." 
+        android:textColor="#000000"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android1:id="@+id/channelText"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/imageView1"
+        android1:padding="5dp"
+        android:textColor="#00ced1"
+        android1:text="Enter channel name" />
+
+     <TextView
+         android1:id="@+id/urlText"
+         android1:layout_width="wrap_content"
+         android1:layout_height="wrap_content"
+         android1:layout_alignParentLeft="true"
+         android1:layout_below="@+id/channel_name"
+         android1:padding="5dp"
+         android:textColor="#00ced1"
+         android1:text="Enter channel url" />
+
+     <TextView
+         android1:id="@+id/chech_url"
+         android1:layout_width="wrap_content"
+         android1:layout_height="wrap_content"
+         android1:layout_alignBottom="@+id/url"
+         android1:layout_below="@+id/url"
+         android1:layout_toRightOf="@+id/urlText"
+         android:textColor="#ff0000"
+         android1:text="" />
+
+</RelativeLayout>

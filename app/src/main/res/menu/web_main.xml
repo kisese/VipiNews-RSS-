@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+     >
+
+    <item
+        android:id="@+id/action_share_channel"
+        yourapp:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/add"
+        />
+    
+        <item
+        android:id="@+id/action_save_channel"
+          yourapp:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/add"
+        />
+        
+        
+</menu>

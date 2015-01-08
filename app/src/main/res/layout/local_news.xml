@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+	android:background="@drawable/story_back"
+    tools:context=".LocaNews" >
+
+                
+       <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/check_channel"
+        android:numColumns="3"
+         >
+
+    </GridView>
+
+   <TextView
+        android:id="@+id/check_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Here are your news channels" />    
+        
+     <TextView
+        android:id="@+id/urlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:gravity="center"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        android:text="" />  
+    
+</RelativeLayout>

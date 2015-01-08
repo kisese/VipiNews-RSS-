@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kisese.project_news" >
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kisese.project_news.custom_listview.WelcomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.custom_listview.MainActivity"
+            >
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.WelcomePage" />
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.LocalNewsActivity"
+            >
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.WorldNewsActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.LifeActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.FinanceActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.SportsActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.EntertainmentActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.TechnologyActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.FunnyActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.FashionActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.PoliticsActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.TravelActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.WorkActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.news_pages.WeatherActivity"
+            ><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+
+
+
+        <activity
+            android:name="com.kisese.rss_reader.SimpleRSSReaderActivity"><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.project_news.custom_listview.MainActivity" />
+
+        </activity>
+
+
+        <activity
+            android:name="com.kisese.rss_reader.NewsWebViewActivity"><!-- Parent activity meta-data to support API level 7+ -->
+
+        </activity>
+
+
+
+
+        <activity
+            android:name="com.kisese.project_news.storagedb.MainActivityList"><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.rss_reader.SimpleRSSReaderActivity" />
+
+        </activity>
+
+
+
+        <activity
+            android:name="com.kisese.project_news.storagedb.RegistrationActivity"><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.rss_reader.SimpleRSSReaderActivity" />
+        </activity>
+
+        <activity
+            android:name="com.kisese.project_news.storagedb.EditActivity"><!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kisese.rss_reader.SimpleRSSReaderActivity" />
+        </activity>
+    </application>
+
+</manifest>

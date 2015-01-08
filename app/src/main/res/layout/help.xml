@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layout_marginTop="15dp"
+           android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:layout_marginBottom="15dp"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:padding="10dp"
+     >
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#6495ed"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/help_text"
+        android:textColor="#000000"
+         />
+    <ScrollView
+         android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        >
+        <LinearLayout
+             android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+            >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="Welcome to ViPi news monitor, the app that saves you time and money and still gets you what you want to read. So on with the help...
+        * The app has various navigation screens starting with the welcome screen" />
+    
+    
+  <ImageView
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help1"
+      />
+  
+  
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="* From this screen you can either see your saved stories or you can open a list of channels that the 
+        app can use to get news for you"
+        />
+      
+        <ImageView
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help2"
+      />
+      
+      
+            <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="* In the channels list there are various channels. For example we have the local news screen"
+        />
+             
+              <ImageView
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help3"
+      />
+              
+                                    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="* Clicking on an item will fetch the channels rss feed"
+        />
+             
+            
+
+                                  <ImageView
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help4"
+      />
+            
+         
+  
+                              <ImageView
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help5"
+      />              
+                      
+                           <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="* You will be presented with a screen with all news updates in form of summary,
+        You can either read it or open the whole story by clicking on its entry on the list...For example the KQ Dreamliner story"
+        />
+                           
+                                                 <ImageView
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help6"
+      />
+                           
+                           <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="* Once the story is open it is immediately cached so that you can view it offline,
+        most importantly you can share the story or SAVE it for later reading"
+        />
+             
+                                                 <ImageView
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help7"
+      />
+                           
+                           <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="So thats it, i do hope you like the application....."
+        />
+        
+                           <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:linksClickable="true"
+       
+        android:text="Regards.....Purple dev team.....If you feel you wanna add something, please contact me
+             brayokisese@gmail.com       +254728762287"
+        />
+        
+                      
+            </LinearLayout>
+            </ScrollView>
+</LinearLayout>

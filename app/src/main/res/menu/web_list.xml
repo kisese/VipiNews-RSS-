@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+     xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/saved_channels"
+        yourapp:showAsAction="always"
+        android:title="Insert"
+        android:icon="@android:drawable/ic_menu_save"
+        >
+    </item>
+    
+
+</menu> 

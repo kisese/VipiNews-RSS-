@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="5dip"
+    android:background="#FFFFFF"
+    android:id="@+id/web_list"
+    android:listSelector="@drawable/list_selector"
+     >
+ 
+ 
+    <!-- Category-->
+    <TextView
+        android:id="@+id/headeline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Our category to display on the listview"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+ 
+    <!-- Description ofthe category -->
+ 
+    <!-- Rightend Duration -->
+    
+    <TextView
+        android:id="@+id/linksy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headeline"
+        android:textSize="9dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="A short description of the category ..."
+         android:textColor="#00bfff"
+         />
+
+        
+    <TextView
+        android:id="@+id/desceription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headeline"
+        android:textSize="12dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="A short description of the category ..."
+         android:textColor="#000000"
+         />
+ 
+     <!-- Rightend Arrow -->
+ 
+
+</LinearLayout>

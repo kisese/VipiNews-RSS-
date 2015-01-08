@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingBottom="5dp"
+   android:paddingTop="5dp"
+   android:background="@drawable/story_back"
+   tools:context=".MainActivity" >
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="#a9a9a9"
+        android:textColor="#000000"
+        android:typeface="sans"
+        android:text="" />
+	
+    
+<ScrollView 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:scrollbars="vertical"
+     android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+     android:layout_marginTop="2dp"
+     android:layout_alignParentBottom="true"
+     android:layout_below="@id/button1"
+    >
+    
+     <WebView
+       android:id="@+id/webView1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginBottom="2dp"
+        />
+    
+</ScrollView>
+
+
+</RelativeLayout>

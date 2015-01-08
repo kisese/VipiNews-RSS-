@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/main_back"
+    android:id="@+id/content"
+    
+    >
+
+    <Button
+        android:id="@+id/open_main"
+        android:layout_width="200dp"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="My News Channels"
+        android:typeface="sans"
+         />
+
+    <Button
+        android:id="@+id/open_saved"
+        android:layout_width="200dp"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/open_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="My Saved News" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/deatil" />
+
+    <ImageView
+        android:id="@+id/help_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/ic_dialog_info" />
+    
+</RelativeLayout>
